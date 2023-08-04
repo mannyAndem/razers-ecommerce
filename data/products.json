@@ -1,0 +1,100 @@
+{
+  "hp-platinum-3080": {
+    "name": "HP Platinum 3080",
+    "price": 100000,
+    "category": ["laptops", "popular"],
+    "description": "A dynamic pc for both work and leisure. Its mid level processors make it the perfect choice for casual PC users.",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "macbook-air": {
+    "name": "Macbook Air",
+    "price": 1000000,
+    "category": ["laptops", "popular"],
+    "description": "A powerful computer perfect for high powered graphics work and casual gaming",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "asus-rog": {
+    "name": "Asus Rog",
+    "price": 900000,
+    "category": ["laptops", "popular"],
+    "description": "This computer is a beast. Perfect for hardcore gaming, and consuming design and computations",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "lenovo-think-pad": {
+    "name": "Lenovo ThinkPad",
+    "price": 200000,
+    "category": ["laptops", "popular"],
+    "description": "Think casual, light, fun. The computer for the outdoorsy person who just needs a connection to the web.",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "hp-weboid": {
+    "name": "HP Weboid",
+    "price": 150000,
+    "category": ["laptops", "popular"],
+    "description": "The PC for whenever you want to give out that geeky vibe",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "hp-platinum-4080": {
+    "name": "HP Platinum 4080",
+    "price": 270000,
+    "category": ["laptops", "popular"],
+    "description": "It's the HP Platinum 3080, but better.",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "hp-weboid-pro": {
+    "name": "HP Weboid Pro",
+    "price": 1000000,
+    "category": ["laptops", "popular"],
+    "description": "When you're a geek but have a bit too much money to spend",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "lenovo-think-pad-2": {
+    "name": "Lenovo ThinkPad 2",
+    "price": 300000,
+    "category": ["laptops", "popular"],
+    "description": "It's literally the same thing as the original ThinkPad but we made it worse a little",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "asus-grog": {
+    "name": "Asus Grog",
+    "price": 600000,
+    "category": ["laptops", "popular"],
+    "description": "Word of advice: Just buy the Rog, this one's trash",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "macbook-air-pro": {
+    "name": "Macbook Air Pro",
+    "price": 2000000,
+    "category": ["laptops", "popular"],
+    "description": "We changed absolutely nothing but doubled the price",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "beatster": {
+    "name": "Beatster",
+    "price": 20000,
+    "category": ["headphones", "popular"],
+    "description": "Wireless, great audio, what more could a music lover want?",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "beatster pro": {
+    "name": "Beatster Pro",
+    "price": 40000,
+    "category": ["headphones"],
+    "description": "Wireless, great audio for double the price!",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "oraimo-headphones": {
+    "name": "Beatster Pro",
+    "price": 25000,
+    "category": ["headphones"],
+    "description": "It's oraimo! You know it's good :)",
+    "image": "/assets/index/laptop-img.jpg"
+  },
+  "oraimo-headphones-max": {
+    "name": "Oraimo Headphones Max",
+    "price": 35000,
+    "category": ["headphones"],
+    "description": "Perfect audio rendering, noise cancellation and comfortable buds.",
+    "image": "/assets/index/laptop-img.jpg"
+  }
+}

@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+}
+input:focus {
+  outline: 1px solid black;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.navbar-icon {
+  height: 30px;
+  width: 30px;
+}
+
+/* Cart Styles*/
+.cart-title-img {
+  width: 55px;
+  height: 55px;
+}
+.cart-img {
+  width: 50px;
+  height: 50px;
+}
