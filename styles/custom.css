@@ -1,9 +1,12 @@
+/* General Styles */
 body {
   min-height: 100vh;
 }
 input:focus {
   outline: 1px solid black;
 }
+
+/* Index styles */
 .icon {
   width: 20px;
   height: 20px;
@@ -13,7 +16,28 @@ input:focus {
   width: 30px;
 }
 
-/* Cart Styles*/
+/* Product page Styles */
+.p-relative {
+  position: relative;
+}
+.cart-item-number {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+.product-img {
+  height: 200px;
+  width: 100%;
+}
+
+/* Cart page Styles*/
 .cart-title-img {
   width: 55px;
   height: 55px;
@@ -21,4 +45,42 @@ input:focus {
 .cart-img {
   width: 50px;
   height: 50px;
+}
+
+/* Checkout page styles */
+.input-control {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.input-control input[type="text"] {
+  padding: 5px 10px;
+  width: 400px;
+  border: 1px solid;
+}
+.radio-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 20%;
+  gap: 10px;
+}
+
+.radio-btns label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Complete Order styles */
+li {
+  list-style: none;
+}
+
+/* Media query for the checkout page */
+@media screen and (max-width: 468px) {
+  .input-control input[type="text"] {
+    padding: 5px 10px;
+    width: 100%;
+  }
 }

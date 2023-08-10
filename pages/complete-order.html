@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Confirmation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles/custom.css" />
+  </head>
+  <body>
+    <main
+      class="min-vh-100 d-flex align-items-center justify-content-center bg-warning"
+    >
+      <div class="card rounded-3 p-3" id="confirmation-section">
+        <div class="card-body">
+          <h1 class="h1 mb-5 text-warning fw-bolder">Order Summary</h1>
+          <span class="lead">Items ordered:</span>
+          <ul id="confirm-product-list"></ul>
+          <div class="row mt-4">
+            <span class="col text-warning fw-bold fs-4">Total:</span>
+            <span class="col lead" id="total"></span>
+          </div>
+          <div class="mt-4">
+            <span class="fs-5 fw-bold">Delivery Address:</span>
+            <p class="lead" id="address"></p>
+          </div>
+          <button
+            class="btn btn-warning w-100 py-2 mt-3 fw-bold"
+            id="confirm-order-btn"
+          >
+            Confirm Order
+          </button>
+        </div>
+      </div>
+      <!-- Order confirmed State -->
+      <div class="card rounded-4 p-5 d-none" id="order-confirmed-section">
+        <div class="card-body">
+          <h2 class="h2 fw-bolder text-warning">Order Confirmed!</h2>
+          <p>
+            Your order has been confirmed, about to be shipped and will arrive
+            in 5-7 business days.
+          </p>
+          <p class="fw-bold">Thank you for shopping at Rizzlers :)</p>
+          <a href="/index.html" class="btn btn-warning mt-5">Back to home</a>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/scripts/complete-order.js"></script>
+  </body>
+</html>

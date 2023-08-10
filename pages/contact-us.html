@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/styles/custom.css" />
+  </head>
+  <body>
+    <div
+      class="container-fluid bg-warning min-vh-100 d-flex justify-content-center align-items-center py-4"
+    >
+      <div class="card bg-white px-1 px-lg-5 shadow-1">
+        <div class="card-body">
+          <h1 class="display-4 text-warning mb-5">Contact Us</h1>
+          <form id="checkout-form">
+            <div class="input-control mt-3">
+              <input type="text" id="first-name" placeholder="First Name" />
+              <span class="err text-danger fs-6"></span>
+            </div>
+            <div class="input-control mt-3">
+              <input type="text" id="last-name" placeholder="Last Name" />
+              <span class="err text-danger fs-6"></span>
+            </div>
+            <div class="input-control mt-3">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <span class="err text-danger fs-6"></span>
+            </div>
+            <button class="btn btn-warning w-100 py-3 mt-3" id="submit-btn">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/scripts/contact-us.js"></script>
+  </body>
+</html>

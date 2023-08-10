@@ -2,99 +2,211 @@
   "hp-platinum-3080": {
     "name": "HP Platinum 3080",
     "price": 100000,
-    "category": ["laptops", "popular"],
+    "category": ["laptops", "laptop"],
     "description": "A dynamic pc for both work and leisure. Its mid level processors make it the perfect choice for casual PC users.",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/laptops/laptop-1.jpg"
   },
   "macbook-air": {
     "name": "Macbook Air",
     "price": 1000000,
-    "category": ["laptops", "popular"],
+    "category": ["laptops", "popular", "laptop"],
     "description": "A powerful computer perfect for high powered graphics work and casual gaming",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/laptops/laptop-2.jpg"
   },
   "asus-rog": {
     "name": "Asus Rog",
     "price": 900000,
-    "category": ["laptops", "popular"],
+    "category": ["laptops", "popular", "laptop"],
     "description": "This computer is a beast. Perfect for hardcore gaming, and consuming design and computations",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/laptops/laptop-3.jpg"
   },
   "lenovo-think-pad": {
     "name": "Lenovo ThinkPad",
     "price": 200000,
-    "category": ["laptops", "popular"],
+    "category": ["laptops", "laptop"],
     "description": "Think casual, light, fun. The computer for the outdoorsy person who just needs a connection to the web.",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/laptops/laptop-4.jpg"
   },
   "hp-weboid": {
     "name": "HP Weboid",
     "price": 150000,
-    "category": ["laptops", "popular"],
+    "category": ["laptops", "popular", "laptop"],
     "description": "The PC for whenever you want to give out that geeky vibe",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/laptops/laptop-5.jpg"
   },
   "hp-platinum-4080": {
     "name": "HP Platinum 4080",
     "price": 270000,
-    "category": ["laptops", "popular"],
+    "category": ["laptops", "laptop"],
     "description": "It's the HP Platinum 3080, but better.",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/laptops/laptop-1.jpg"
   },
   "hp-weboid-pro": {
     "name": "HP Weboid Pro",
     "price": 1000000,
-    "category": ["laptops", "popular"],
+    "category": ["laptops", "laptop"],
     "description": "When you're a geek but have a bit too much money to spend",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/laptops/laptop-3.jpg"
   },
   "lenovo-think-pad-2": {
     "name": "Lenovo ThinkPad 2",
     "price": 300000,
-    "category": ["laptops", "popular"],
+    "category": ["laptops", "laptop"],
     "description": "It's literally the same thing as the original ThinkPad but we made it worse a little",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/laptops/laptop-5.jpg"
   },
   "asus-grog": {
     "name": "Asus Grog",
     "price": 600000,
-    "category": ["laptops", "popular"],
+    "category": ["laptops", "popular", "laptop"],
     "description": "Word of advice: Just buy the Rog, this one's trash",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/laptops/laptop-2.jpg"
   },
   "macbook-air-pro": {
     "name": "Macbook Air Pro",
     "price": 2000000,
-    "category": ["laptops", "popular"],
+    "category": ["laptops", "popular", "laptop"],
     "description": "We changed absolutely nothing but doubled the price",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/laptops/laptop-4.jpg"
   },
   "beatster": {
     "name": "Beatster",
     "price": 20000,
-    "category": ["headphones", "popular"],
+    "category": ["headphones", "popular", "headphone"],
     "description": "Wireless, great audio, what more could a music lover want?",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/headphones/headphone-1.jpg"
   },
   "beatster pro": {
     "name": "Beatster Pro",
     "price": 40000,
-    "category": ["headphones"],
+    "category": ["headphones", "headphone"],
     "description": "Wireless, great audio for double the price!",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/headphones/headphone-2.jpg"
   },
   "oraimo-headphones": {
-    "name": "Beatster Pro",
+    "name": "Oraimo headphones",
     "price": 25000,
-    "category": ["headphones"],
+    "category": ["headphones", "headphone"],
     "description": "It's oraimo! You know it's good :)",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/headphones/headphone-3.jpg"
+  },
+  "redact-beats": {
+    "name": "Redact Beats",
+    "price": 15000,
+    "category": ["headphones", "headphone", "popular"],
+    "description": "Cheaper alternative to the beatster but same vibes",
+    "image": "/assets/product-images/headphones/headphone-5.jpg"
   },
   "oraimo-headphones-max": {
     "name": "Oraimo Headphones Max",
     "price": 35000,
-    "category": ["headphones"],
+    "category": ["headphones", "headphone"],
     "description": "Perfect audio rendering, noise cancellation and comfortable buds.",
-    "image": "/assets/index/laptop-img.jpg"
+    "image": "/assets/product-images/headphones/headphone-4.jpg"
+  },
+  "arax-keyboard": {
+    "name": "Arax Keyboard",
+    "price": 150000,
+    "category": ["keyboards", "keyboard", "popular"],
+    "description": "Mechanical keyboard perfect for your work and gaming needs",
+    "image": "/assets/product-images/keyboards/keyboard-1.jpg"
+  },
+  "platinum-keyboard": {
+    "name": "Platinum Keyboard",
+    "price": 125000,
+    "category": ["keyboards", "keyboard"],
+    "description": "Everything and more, the keyboard for the hardcore gamer",
+    "image": "/assets/product-images/keyboards/keyboard-2.jpg"
+  },
+  "arax-keyboard-pro": {
+    "name": "Arax Keyboard Pro",
+    "price": 170000,
+    "category": ["keyboards", "keyboard"],
+    "description": "It's the arax keyboard but better, louder and flashier",
+    "image": "/assets/product-images/keyboards/keyboard-3.jpg"
+  },
+  "orphic": {
+    "name": "The orphic",
+    "price": 85000,
+    "category": ["keyboards", "keyboard"],
+    "description": "The keyboard for the casual, quiet worker",
+    "image": "/assets/product-images/keyboards/keyboard-5.jpg"
+  },
+  "protonic": {
+    "name": "The Protonic",
+    "price": 200000,
+    "category": ["monitors", "monitor"],
+    "description": "The monitor for the casual, quiet worker",
+    "image": "/assets/product-images/monitors/monitor-4.jpg"
+  },
+  "manganese": {
+    "name": "The Manganese",
+    "price": 100000,
+    "category": ["keyboards", "keyboard"],
+    "description": "The keyboard for the casual, quiet worker, with a bit of style",
+    "image": "/assets/product-images/keyboards/keyboard-4.jpg"
+  },
+  "display-flex": {
+    "name": "Display flex",
+    "price": 99000,
+    "category": ["monitors", "monitor", "popular"],
+    "description": "The monitor for the casual, quiet worker, with a bit of style",
+    "image": "/assets/product-images/monitors/monitor-2.jpg"
+  },
+  "display-flex-pro": {
+    "name": "Display flex Pro",
+    "price": 102000,
+    "category": ["monitors", "monitor"],
+    "description": "The display flex monitor but better",
+    "image": "/assets/product-images/monitors/monitor-3.jpg"
+  },
+  "manganese-pro": {
+    "name": "Manganese Pro",
+    "price": 103500,
+    "category": ["monitors", "monitor", "popular"],
+    "description": "Perfect for high powered gaming or creating breathtaking animations",
+    "image": "/assets/product-images/monitors/monitor-1.jpg"
+  },
+  "orphic-monitor": {
+    "name": "Orphic Monitor",
+    "price": 103500,
+    "category": ["monitors", "monitor", "popular"],
+    "description": "Pairs quite nicely with the orphic keyboard",
+    "image": "/assets/product-images/monitors/monitor-5.jpg"
+  },
+  "mycam": {
+    "name": "MyCam",
+    "price": 13500,
+    "category": ["webcams", "webcam", "popular"],
+    "description": "48MP camera perfect for your zoom meetings",
+    "image": "/assets/product-images/webcams/webcam-1.jpg"
+  },
+  "mycam-pro": {
+    "name": "MyCam Pro",
+    "price": 13500,
+    "category": ["webcams", "webcam", "popular"],
+    "description": "The mycam but now with a bang",
+    "image": "/assets/product-images/webcams/webcam-3.jpg"
+  },
+  "GoPro": {
+    "name": "GoPro",
+    "price": 52500,
+    "category": ["webcams", "webcam"],
+    "description": "High powered camera perfect for streams and youtube videos",
+    "image": "/assets/product-images/webcams/webcam-2.jpg"
+  },
+  "Captic": {
+    "name": "Captic",
+    "price": 48700,
+    "category": ["webcams", "webcam"],
+    "description": "Midrange camera perfect for zoom meetings, twitch streams and everything in between",
+    "image": "/assets/product-images/webcams/webcam-4.jpg"
+  },
+  "camPic": {
+    "name": "CamPic",
+    "price": 30700,
+    "category": ["webcams", "webcam"],
+    "description": "Simple, small, elegant and functional, what more could you ask for?",
+    "image": "/assets/product-images/webcams/webcam-5.jpg"
   }
 }

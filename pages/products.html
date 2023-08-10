@@ -17,78 +17,82 @@
   <body>
     <div class="container-fluid">
       <div class="row min-vh-100">
-        <div class="col-3 border-5 min-vh-100 d-flex flex-column p-3 shadow-2">
-          <h2 class="display-4 text-center mb-5">Categories</h2>
-          <button class="btn btn-outline-warning p-2 rounded-pill my-3">
+        <div
+          class="col-3 d-none border-5 d-xl-flex flex-column p-3 shadow-2 fixed-top"
+        >
+          <h2 class="display-4 text-center mb-5 d-xl-block">Categories</h2>
+          <button
+            class="btn btn-outline-warning p-2 rounded-pill my-3 category"
+          >
+            All
+          </button>
+          <button
+            class="btn btn-outline-warning p-2 rounded-pill my-3 category"
+          >
             Popular
           </button>
-          <button class="btn btn-outline-warning p-2 rounded-pill my-3">
+          <button
+            class="btn btn-outline-warning p-2 rounded-pill my-3 category"
+          >
             Laptops
           </button>
-          <button class="btn btn-outline-warning p-2 rounded-pill my-3">
+          <button
+            class="btn btn-outline-warning p-2 rounded-pill my-3 category"
+          >
             Monitors
           </button>
-          <button class="btn btn-outline-warning p-2 rounded-pill my-3">
+          <button
+            class="btn btn-outline-warning p-2 rounded-pill my-3 category"
+          >
             Keyboards
           </button>
-          <button class="btn btn-outline-warning p-2 rounded-pill my-3">
-            Headsets
+          <button
+            class="btn btn-outline-warning p-2 rounded-pill my-3 category"
+          >
+            Headphones
           </button>
-          <button class="btn btn-outline-warning p-2 rounded-pill my-3">
+          <button
+            class="btn btn-outline-warning p-2 rounded-pill my-3 category"
+          >
             Webcams
           </button>
         </div>
-        <main class="col-9 p-3 min-vh-100">
-          <div class="container">
-            <div class="container-fluid row align-items-center">
-              <form role="search" class="col-9">
-                <input
-                  type="search"
-                  placeholder="Browse our quality computers and accesories!"
-                  class="rounded-2 p-2 ps-3 w-75 border text-warning"
-                />
-                <button class="btn btn-outline-warning p-2">Search</button>
-              </form>
-              <div class="container col-2 d-flex gap-3 justify-content-end">
-                <img
-                  src="/assets/icons/filter-solid.svg"
-                  class="icon"
-                  role="button"
-                />
-                <img
-                  src="/assets/icons/sort-solid.svg"
-                  class="icon"
-                  role="button"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="container-fluid py-3">
-            <div class="row d-flex gap-2" id="product-list">
-              <div
-                class="col-sm-9 col-md-6 col-lg-4 row justify-content-center"
+        <!-- Empty element to keep the page's structure -->
+        <div class="col-3"></div>
+        <main class="col-12 col-xl-9 py-5 px-0 min-vh-100">
+          <div class="container-fluid gap-3 d-flex">
+            <div class="input-group">
+              <input
+                type="search"
+                placeholder="Browse our quality computers and accesories!"
+                class="p-2 ps-3 w-75 border text-warning"
+                id="search-input"
+              />
+              <button
+                class="btn btn-outline-warning p-0 p-lg-2 w-25 fs-6"
+                id="search-btn"
               >
-                <div class="card col-11">
-                  <div class="card-body">
-                    <div class="card-img">
-                      <img
-                        src="/assets/index/laptop-img.jpg"
-                        alt=""
-                        class="img-fluid"
-                      />
-                    </div>
-                    <h2 class="card-title fs-4">HP Platinum 3080</h2>
-                    <p class="lead fs-6 my-1">
-                      A laptop for your all your work and leisure needs.
-                    </p>
-                    <div class="d-flex py-1 justify-content-between">
-                      <span class="lead fs-4">N100,000</span>
-                      <button class="btn btn-warning">Add to cart</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                Search
+              </button>
             </div>
+            <a href="/pages/cart.html" class="col-1 p-relative">
+              <span
+                class="cart-item-number bg-warning text-white d-none"
+                id="cart-item-number"
+              ></span>
+              <img
+                src="/assets/icons/cart-shopping-solid.svg"
+                alt=""
+                class="cart-img img-fluid"
+              />
+            </a>
+          </div>
+
+          <div class="container py-3">
+            <div
+              class="row d-lg-flex gap-5 justify-content-center py-3 px-1 px-lg-3"
+              id="product-list"
+            ></div>
           </div>
         </main>
       </div>
