@@ -15,7 +15,7 @@ function fetchCart() {
     }
     renderToCart() {
       cartDisplay.innerHTML += `
-        <div class="row align-items-center p-2 my-4 border border-success w-100">
+        <div class="row align-items-center justify-content-between p-0 p-2 my-4 border border-success w-100">
                 <div class="col-5 d-flex gap-2 align-items-center">
                   <img 
                     src="${this.image}"
@@ -24,8 +24,7 @@ function fetchCart() {
                   />
                   <h2 class=" fs-6 fs-xl-5">${this.name}</h2>
                 </div>
-                <span class="qty col-1">1</span>
-                <span class="lead text-success col-4">N${this.price.toLocaleString()}</span>
+                <span class="lead text-success col-4 fs-6 fs-lg-5">N${this.price.toLocaleString()}</span>
                 <button class="btn col-2 btn-danger remove-from-cart-btn">X</button>
               </div>`;
     }
